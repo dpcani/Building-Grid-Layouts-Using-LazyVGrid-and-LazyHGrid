@@ -9,9 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    private var gridItemLayout = [
-        GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible())
-    ]
+    private var gridItemLayout =  Array(repeating: GridItem(.flexible(), spacing: 0), count: symbols.count)
     
     private var colors: [Color] = [.yellow, .purple, .green]
     
