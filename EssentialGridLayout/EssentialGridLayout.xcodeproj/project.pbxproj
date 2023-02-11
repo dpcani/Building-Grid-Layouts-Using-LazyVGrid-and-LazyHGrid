@@ -14,6 +14,7 @@
 		0B937C6829978B530011ED82 /* Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B937C6729978B530011ED82 /* Datasource.swift */; };
 		0B937C6A29978DEA0011ED82 /* SixColumnsFlexible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B937C6929978DEA0011ED82 /* SixColumnsFlexible.swift */; };
 		0B937C6C29978E830011ED82 /* AdaptiveGridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B937C6B29978E830011ED82 /* AdaptiveGridLayout.swift */; };
+		0B937C6E29978F080011ED82 /* FixedGridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B937C6D29978F080011ED82 /* FixedGridLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		0B937C6729978B530011ED82 /* Datasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datasource.swift; sourceTree = "<group>"; };
 		0B937C6929978DEA0011ED82 /* SixColumnsFlexible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixColumnsFlexible.swift; sourceTree = "<group>"; };
 		0B937C6B29978E830011ED82 /* AdaptiveGridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveGridLayout.swift; sourceTree = "<group>"; };
+		0B937C6D29978F080011ED82 /* FixedGridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedGridLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +43,7 @@
 		0B937C4C29978A940011ED82 = {
 			isa = PBXGroup;
 			children = (
-				0B937C6B29978E830011ED82 /* AdaptiveGridLayout.swift */,
+				0B937C6D29978F080011ED82 /* FixedGridLayout.swift */,
 				0B937C5729978A940011ED82 /* EssentialGridLayout */,
 				0B937C5629978A940011ED82 /* Products */,
 			);
@@ -61,6 +63,7 @@
 				0B937C6629978B450011ED82 /* Domain */,
 				0B937C5829978A940011ED82 /* EssentialGridLayoutApp.swift */,
 				0B937C5A29978A940011ED82 /* ContentView.swift */,
+				0B937C6B29978E830011ED82 /* AdaptiveGridLayout.swift */,
 				0B937C6929978DEA0011ED82 /* SixColumnsFlexible.swift */,
 				0B937C5C29978A950011ED82 /* Assets.xcassets */,
 				0B937C5E29978A950011ED82 /* Preview Content */,
@@ -156,6 +159,7 @@
 			files = (
 				0B937C6A29978DEA0011ED82 /* SixColumnsFlexible.swift in Sources */,
 				0B937C6829978B530011ED82 /* Datasource.swift in Sources */,
+				0B937C6E29978F080011ED82 /* FixedGridLayout.swift in Sources */,
 				0B937C5B29978A940011ED82 /* ContentView.swift in Sources */,
 				0B937C6C29978E830011ED82 /* AdaptiveGridLayout.swift in Sources */,
 				0B937C5929978A940011ED82 /* EssentialGridLayoutApp.swift in Sources */,
