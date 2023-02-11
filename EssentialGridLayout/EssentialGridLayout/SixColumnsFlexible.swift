@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SixColumns: View {
+struct SixColumnsFlexible: View {
         private var sixColumnGrid: [GridItem] = Array(repeating: .init(.flexible()), count : 6)
         
         private var colors: [Color] = [.yellow, .purple, .green]
@@ -28,8 +28,8 @@ struct SixColumns: View {
     }
 }
 
-struct SixColumns_Previews: PreviewProvider {
+struct SixColumnsFlexible_Previews: PreviewProvider {
     static var previews: some View {
-        SixColumns()
+        SixColumnsFlexible()
     }
 }
