@@ -11,6 +11,7 @@
 		0B937C5B29978A940011ED82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B937C5A29978A940011ED82 /* ContentView.swift */; };
 		0B937C5D29978A950011ED82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B937C5C29978A950011ED82 /* Assets.xcassets */; };
 		0B937C6029978A950011ED82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B937C5F29978A950011ED82 /* Preview Assets.xcassets */; };
+		0B937C6829978B530011ED82 /* Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B937C6729978B530011ED82 /* Datasource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		0B937C5A29978A940011ED82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0B937C5C29978A950011ED82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B937C5F29978A950011ED82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B937C6729978B530011ED82 /* Datasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datasource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		0B937C5729978A940011ED82 /* EssentialGridLayout */ = {
 			isa = PBXGroup;
 			children = (
+				0B937C6629978B450011ED82 /* Domain */,
 				0B937C5829978A940011ED82 /* EssentialGridLayoutApp.swift */,
 				0B937C5A29978A940011ED82 /* ContentView.swift */,
 				0B937C5C29978A950011ED82 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				0B937C5F29978A950011ED82 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0B937C6629978B450011ED82 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				0B937C6729978B530011ED82 /* Datasource.swift */,
+			);
+			path = Domain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B937C6829978B530011ED82 /* Datasource.swift in Sources */,
 				0B937C5B29978A940011ED82 /* ContentView.swift in Sources */,
 				0B937C5929978A940011ED82 /* EssentialGridLayoutApp.swift in Sources */,
 			);
